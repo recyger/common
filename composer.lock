@@ -4,20 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "df97b8188fb6ba98ca299fb78e028873",
-    "content-hash": "c9bcfe040e98e41f8ebc5400558b14a1",
+    "hash": "41c1b1d7f08f27544999cd0ae2c237e7",
+    "content-hash": "fa41cfb5af009e2f7a8e50bf8c6d0f54",
     "packages": [
+        {
+            "name": "testing/cinstaller",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:recyger/composer.git",
+                "reference": "1e27b1287ffbcef2672b5f11104da433550b8140"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recyger/composer/zipball/1e27b1287ffbcef2672b5f11104da433550b8140",
+                "reference": "1e27b1287ffbcef2672b5f11104da433550b8140",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "test-composer",
+            "notification-url": "http://packagist.itass.local/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "author's name",
+                    "email": "email@example.com"
+                }
+            ],
+            "description": "description_text",
+            "time": "2016-04-01 12:27:34"
+        },
         {
             "name": "testing/lib",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:recyger/lib.git",
-                "reference": "274eda14c69a8447bea87abe4cdd615d93ef4b3b"
+                "url": "https://github.com/recyger/lib.git",
+                "reference": "4820df924382597b6d9e5387c5ad8d5d737786f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/recyger/lib/zipball/274eda14c69a8447bea87abe4cdd615d93ef4b3b",
+                "url": "https://api.github.com/repos/recyger/lib/zipball/4820df924382597b6d9e5387c5ad8d5d737786f8",
                 "reference": "274eda14c69a8447bea87abe4cdd615d93ef4b3b",
                 "shasum": ""
             },
@@ -33,14 +64,15 @@
                 }
             ],
             "description": "description_text",
-            "time": "2016-04-01 11:06:18"
+            "time": "2016-04-01 11:52:37"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "testing/lib": 20
+        "testing/lib": 20,
+        "testing/cinstaller": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

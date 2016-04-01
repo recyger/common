@@ -20,6 +20,7 @@
     }
   ],
   "require": {
-    "testing/lib": "dev-master"
+    "testing/lib": "dev-master",
+    "testing/cinstaller": "dev-master"
   }
 }
