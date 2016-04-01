@@ -1,13 +1,23 @@
 {
-  "name"             : "testing/common",
+  "name"             : "recyger/common",
   "description"      : "description_text",
   "minimum-stability": "stable",
   "license"          : "proprietary",
   "type"             : "test-common",
+  "varsion"          : "0.0.1",
   "authors"          : [
     {
       "name" : "author's name",
       "email": "email@example.com"
     }
-  ]
+  ],
+  "repositories"     : [
+    {
+      "url" : "git@github.com:recyger/lib.git",
+      "type": "vcs"
+    }
+  ],
+  "require"          : {
+    "recyger/lib": "dev-master"
+  }
 }
