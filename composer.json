@@ -15,9 +15,14 @@
     {
       "url" : "git@github.com:recyger/lib.git",
       "type": "vcs"
+    },
+    {
+      "url" : "git@github.com:recyger/client.git",
+      "type": "vcs"
     }
   ],
   "require"          : {
-    "recyger/lib": "dev-master"
+    "recyger/lib": "dev-master",
+    "recyger/client": "dev-master"
   }
 }
