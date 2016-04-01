@@ -21,6 +21,7 @@
   ],
   "require": {
     "testing/lib": "dev-master",
+    "testing/client": "dev-master",
     "testing/cinstaller": "dev-master"
   }
 }
