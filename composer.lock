@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "647a269a781495503d9925d3dd35b55a",
+    "content-hash": "e1bf25dd9bb75d19443dd98af5b5aaa6",
+    "packages": [
+        {
+            "name": "recyger/client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/recyger/client.git",
+                "reference": "f48cf20a374523cbf357512c8c584c725c212c65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recyger/client/zipball/f48cf20a374523cbf357512c8c584c725c212c65",
+                "reference": "f48cf20a374523cbf357512c8c584c725c212c65",
+                "shasum": ""
+            },
+            "require": {
+                "recyger/common": "dev-master",
+                "recyger/lib": "dev-master"
+            },
+            "type": "test-common-base",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "author's name",
+                    "email": "email@example.com"
+                }
+            ],
+            "description": "description_text",
+            "support": {
+                "source": "https://github.com/recyger/client/tree/master",
+                "issues": "https://github.com/recyger/client/issues"
+            },
+            "time": "2016-04-01 06:19:21"
+        },
+        {
+            "name": "recyger/lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/recyger/lib.git",
+                "reference": "5187954310b262826f0b71e7d76a510fa309437d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recyger/lib/zipball/5187954310b262826f0b71e7d76a510fa309437d",
+                "reference": "5187954310b262826f0b71e7d76a510fa309437d",
+                "shasum": ""
+            },
+            "type": "test-lib",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "author's name",
+                    "email": "email@example.com"
+                }
+            ],
+            "description": "description_text",
+            "support": {
+                "source": "https://github.com/recyger/lib/tree/master",
+                "issues": "https://github.com/recyger/lib/issues"
+            },
+            "time": "2016-04-01 05:47:58"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "recyger/lib": 20,
+        "recyger/client": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
