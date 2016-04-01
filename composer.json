@@ -16,9 +16,5 @@
       "type" : "composer",
       "url" : "http://packagist.itass.local/"
     }
-  ],
-  "require"          : {
-    "testing/client": "dev-master",
-    "testing/lib": "dev-master"
-  }
+  ]
 }
