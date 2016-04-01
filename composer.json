@@ -1,7 +1,7 @@
 {
   "name"             : "testing/common",
   "description"      : "description_text",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license"          : "proprietary",
   "type"             : "test-common",
   "varsion"          : "0.0.1",
